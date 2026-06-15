@@ -1,8 +1,11 @@
-# D Gateway Proxy — your own payment backend
+# Pesaflow Proxy — your own payment backend
 
-This is the secure backend for the **D Gateway Commerce** Framer components. You
-host your own copy so that **your** D Gateway secret key never touches the
+This is the secure backend for the **Pesaflow** commerce components for Framer.
+You host your own copy so that **your** D Gateway secret key never touches the
 browser, and your orders stay in **your** account. It takes about 5 minutes.
+
+> **Pesaflow** is the storefront kit; **D Gateway** is the underlying Ugandan
+> mobile-money payment provider (MTN / Airtel) this proxy talks to.
 
 It exposes four endpoints:
 
@@ -20,7 +23,7 @@ Your secret API key lives only in this server's environment variables — it is
 
 ## 1. Deploy it (one click)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AgabaSteven/dgateway-proxy-template&env=DGATEWAY_API_KEY,DGATEWAY_WEBHOOK_SECRET,ALLOWED_ORIGIN&envDescription=Your%20D%20Gateway%20API%20key%20%2B%20Webhook%20Secret%20(from%20the%20D%20Gateway%20dashboard%20Settings).&project-name=dgateway-proxy&repository-name=dgateway-proxy)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AgabaSteven/pesaflow-proxy&env=DGATEWAY_API_KEY,DGATEWAY_WEBHOOK_SECRET,ALLOWED_ORIGIN&envDescription=Your%20D%20Gateway%20API%20key%20%2B%20Webhook%20Secret%20(from%20the%20D%20Gateway%20dashboard%20Settings).&project-name=pesaflow-proxy&repository-name=pesaflow-proxy)
 
 > The button clones this repo into the buyer's own Vercel account, so their
 > deployment is fully isolated with their own keys.
