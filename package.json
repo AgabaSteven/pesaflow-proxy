@@ -1,0 +1,12 @@
+{
+    "name": "dgateway-proxy-template",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Self-host this secure proxy between your Framer store (D Gateway Commerce components) and the D Gateway payments API. Holds your secret API key server-side, receives signed webhooks, and stores orders for cross-device lookup.",
+    "dependencies": {
+        "@upstash/redis": "^1.34.3"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
