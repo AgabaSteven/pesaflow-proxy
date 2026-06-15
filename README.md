@@ -20,11 +20,10 @@ Your secret API key lives only in this server's environment variables — it is
 
 ## 1. Deploy it (one click)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR-GITHUB-USERNAME/dgateway-proxy-template&env=DGATEWAY_API_KEY,DGATEWAY_WEBHOOK_SECRET,ALLOWED_ORIGIN&envDescription=Your%20D%20Gateway%20API%20key%20%2B%20Webhook%20Secret%20(from%20the%20D%20Gateway%20dashboard%20Settings).&project-name=dgateway-proxy&repository-name=dgateway-proxy)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AgabaSteven/dgateway-proxy-template&env=DGATEWAY_API_KEY,DGATEWAY_WEBHOOK_SECRET,ALLOWED_ORIGIN&envDescription=Your%20D%20Gateway%20API%20key%20%2B%20Webhook%20Secret%20(from%20the%20D%20Gateway%20dashboard%20Settings).&project-name=dgateway-proxy&repository-name=dgateway-proxy)
 
-> **Seller note:** before sharing this, push this folder to a **public GitHub
-> repo** and replace `YOUR-GITHUB-USERNAME` in the button link above with your
-> repo path. The button clones that repo into the buyer's own Vercel account.
+> The button clones this repo into the buyer's own Vercel account, so their
+> deployment is fully isolated with their own keys.
 
 When you click Deploy, Vercel asks for:
 
